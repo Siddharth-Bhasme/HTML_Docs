@@ -1,0 +1,136 @@
+//Tables and Forms//
+
+<!-- Forms -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <!-- Creating h1 tag -->
+    <!-- h1 Enter -->
+    <h1>Login form</h1>
+
+    <!-- Creating a form -->
+    <!-- form Enter -->
+    <!-- Remove action attribute -->
+    <form>
+
+        <!-- Taking input from user -->
+        <!-- input Enter -->
+        <!-- multiple items appear as a dropdown menu,we can select anyone among those items -->
+        <!-- input without selecting any item and remove the attribute -->
+        <input>
+
+        <!-- Some ways to create text area for specific name(email,password) -->
+        <!-- 1. Step 1 ->Write email:
+                Step 2-> input Enter remove the word present in type(text) and add email and create another attribute say name and add email inside it -->
+        email:
+        <input type="email" name="email">
+
+        <!-- 2. Step 1 -> Write email:
+                Step 2 -> Write input and select email in the dropdown menu Enter and remove the word present in type(text) and add email and add email inside attribute say name  -->
+        email:
+        <input type="email" name="email" id="">
+
+        <!-- 3. Step 1 -> Create label -> label Enter
+                Step 2 -> Write email inside the for attribute 
+                Step 3 -> Write email:
+                Step 4 -> Write input and select email in the dropdown menu Enter and remove the word present in type(text) and add email and add email inside attribute say name -->
+                <label for="email">
+                    email:
+                    <input type="email" name="email" id="">
+                </label>
+
+                <!-- Creating button -->
+                <!-- button and select the required button shown in the dropdown menu Enter-->
+                <button type="submit">Login</button>
+                
+    </form>
+
+    <!-- Creating a container(div) -->
+    <!-- div Enter -->
+    <div>
+
+        <!-- Creating a h1 tag -->
+        <!-- h1 Enter -->
+        <h1>Learning form</h1>
+
+        <!-- Creating a form inside container(div) -->
+        <!-- form Enter -->
+        <!-- Remove action attribute -->
+        <form>
+
+            <!--Step 1 -> Create label -> label Enter
+                Step 2 -> Write email inside the for attribute 
+                Step 3 -> Write email:
+                Step 4 -> Write input and select email in the dropdown menu Enter and remove the word present in type(text) and add email and add email inside attribute say name  -->
+                <label for="email">
+                    email:
+                    <input type="email" name="email" id="">
+                </label>
+            
+            <!-- Creating a textarea -->
+            <!-- Some ways for creating textarea -->
+            <!-- 1. textarea Enter-->
+            <textarea name="" id=""></textarea>
+            <!-- 2. Step 1 -> Create label -> label Enter
+                    Step 2 -> Write email inside the for attribute 
+                    Step 3 -> Write email:
+                    Step 4 -> textarea Enter  -->
+                    <label for="email">
+                       email:
+                       <textarea name="" id=""></textarea>
+                    </label>
+            
+            <!-- input and select item shown in dropdown menu Enter -->
+            <input type="checkbox" name="" id="">
+            <input type="radio" name="" id="">
+            <input type="date" name="" id="">
+
+               <!-- Step 1 -> Create label -> label Enter
+                    Step 2 -> Write games inside the for attribute 
+                    Step 3 -> Write game name (Cricket):
+                    Step 4 -> Write input and select checkbox(or radio or other item) in the dropdown menu Enter -->
+                    <label for="Games">
+                       Cricket:
+                       <input type="checkbox" name="" id="">
+                    </label>
+
+            <!-- Create label -> label Enter -->
+            <!-- Write Games inside for attribute -->
+            <!-- Write select -> select Enter -->
+            <!-- Write Games inside name attribute -->
+            <!-- Write option inside selct -->
+            <!-- Write Cricket or Baseball inside value attribute -->
+                <label for="Games">
+                    <select name="Games" id="">
+                        <option value="Cricket">Cricket</option>
+                        <option value="Baseball">Baseball</option>
+                    </select>
+                </label>
+
+            <!-- input Enter -->
+            <!-- Remove text in the type attribute and click ctrl space and select file(any other item) Enter -->
+            <input type="file">
+
+            <!--Step 1 -> Create label -> label Enter
+                Step 2 -> Write email inside the for attribute 
+                Step 3 -> Write email:
+                Step 4 -> Write input and select email from the dropdown menu and remove type attribute and add palceholder inside that placeholder attribute write Enter your email and add email inside name attribute -->
+                <label for="email">
+                    email:
+                    <input placeholder="Enter your email" name="email" id="">
+                </label>
+
+            
+        </form>
+
+    </div>
+
+</body>
+</html>
